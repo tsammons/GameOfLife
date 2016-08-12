@@ -1,0 +1,85 @@
+#myCanvas {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-style: solid;
+    border-color: #b3b3b3;
+    border-width: 10px;
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #AEF2E2;
+}
+
+#controls {
+    float: left;
+    width: 250px;
+    height: 545px;
+    margin-left: 20px;
+}
+
+#controls h3 {
+    font-variant: small-caps;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: black;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 185px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-variant: small-caps;
+    //font-size: 30px;
+    //font-weight: bold;
+}
+
+input {
+  display: inline-block;
+  float: left;
+}
+
+
+button {
+    padding:5px 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: white;
+    border: solid 2px;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 250px;
+    margin-top: 10px;
+}
+
+#Header {
+    background-color: white;
+    border-bottom: solid 5px;
+}
+
+#HeaderBrand {
+    color: black;
+    display: table-cell;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 60px;
+    padding:0 10px;
+    vertical-align: middle;
+}
+
+input[type=number]{
+    width: 30px;
+} 
